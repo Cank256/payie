@@ -6,22 +6,27 @@ A payment solution project (NodeJS, Laravel and Django)
 ## File Structure
 
     payie/
-        |
-        ├── api
-        │   ├── Django
-        │   │   
-        │   ├── Laravel
-        │   │   
-        │   └── Node
-        │       
-        ├── gateway
-        |
+        ├── README.md
         ├── UI
-        |
-        |
-        ├── contributions.md
-        |
-        └── README.md
+        │   └── README.md
+        ├── api
+        │   ├── django
+        │   │   └── README.md
+        │   ├── laravel
+        │   │   └── README.md
+        │   └── node
+        │       └── README.md
+        ├── contributing.md
+        └── gateway
+            ├── README.md
+            ├── dist
+            │   ├── app.js
+            │   └── app.js.map
+            ├── package-lock.json
+            ├── package.json
+            ├── src
+            │   └── app.ts
+            └── tsconfig.json
 
 
 ## Contributing

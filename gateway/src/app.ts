@@ -1,11 +1,17 @@
 import express from 'express';
+import mongoose from 'mongoose';
+
 const app = express();
 const port = 3000;
 
+//Link to our mongodb database
+const db_url = 'mongodb://localhost:27017/gateway'
+
+// mongodb connection
+mongoose.connect(db_url)
+.then(result => app.listen(port, () => console.log(`Express is listening at http://localhost:${port}`)))
+.catch(err => console.log(err))
+
 app.get('/', (req, res) => {
   res.send('Hello World!');
-});
-
-app.listen(port, () => {
-  return console.log(`Express is listening at http://localhost:${port}`);
 });
