@@ -1,0 +1,26 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "description": "Gateway for Payie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cank256/payie.git"
+  },
+  "keywords": [
+    "Gateway",
+    "Payment",
+    "Mobile",
+    "Money",
+    "API"
+  ],
+  "author": "Caleb Nkunze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cank256/payie/issues"
+  },
+  "homepage": "https://github.com/Cank256/payie#readme"
+}
