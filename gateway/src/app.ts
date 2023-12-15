@@ -1,7 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 const bodyParser = require('body-parser');
-import router from './routes/transactions'
+import router from './routes'
 
 const app = express();
 
